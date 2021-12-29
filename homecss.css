@@ -7,6 +7,7 @@ body {
     "navsec"
     "navhr"
     "aboutsec"
+    "abouthr"
     "portfoliosec"
     "contactsec";
 }
@@ -21,6 +22,7 @@ nav {
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: solid 12px #2BDF7D;
+    border-top: solid 12px #2BDF7D;
     margin-bottom: 0px;
 }
 
@@ -55,6 +57,7 @@ nav {
 
 #about {
     grid-area: aboutsec;
+    border-bottom: solid 12px #2BDF7D;
 }
 
 .stylewrapper {
@@ -93,6 +96,10 @@ nav {
     border-top: solid 12px #2BDF7D;
     background-color: #86ff87;
     margin-top: 15px;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
 }
 
 #aboutintrocontent {
@@ -114,6 +121,16 @@ nav {
     color: #fff;
     font-size: 15px;
     margin-left: 5px;
+}
+
+.abouthr {
+    grid-area: abouthr;
+    height: 8px;
+    width: 100%;
+    border-width: 0;
+    background-color: green;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 /*portfolio*/
 
