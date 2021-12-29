@@ -1,4 +1,128 @@
 body {
     margin: 0;
     background-color: #edf6f1;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "navsec"
+    "navhr"
+    "aboutsec"
+    "portfoliosec"
+    "contactsec";
+}
+
+/*nav*/
+
+nav {
+    grid-area: navsec;
+    background-color: #86ff87;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 12px #2BDF7D;
+    margin-bottom: 0px;
+}
+
+.navlink {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #cbcecc;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 0 grey;
+    
+}
+
+.navlink:active {
+    padding-top: 3px;
+    padding-bottom: 2px;
+    box-shadow: none;
+}
+
+.navhr {
+    grid-area: navhr;
+    height: 8px;
+    width: 100%;
+    border-width: 0;
+    background-color: green;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/*about*/
+
+#about {
+    grid-area: aboutsec;
+}
+
+.stylewrapper {
+    display: grid;
+    grid-template-areas: 
+    "name block";
+}
+
+#myname {
+    grid-area: name;
+    padding-left: 20px;
+    padding-right: 8px;
+    background-color: #86ff87;
+    color: #fff;
+    font-size: 28px;
+    border-bottom-right-radius: 45px;
+}
+
+.colorblock {
+    grid-area: block;
+    background-color: #edf6f1;
+    padding-left: 100px;
+}
+
+#abouthead {
+    grid-area: name;
+    padding-left: 20px;
+    padding-right: 4px;
+    background-color: #86ff87;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-right-radius: 45px;
+}
+
+.maintextcontent {
+    border-top: solid 12px #2BDF7D;
+    background-color: #86ff87;
+    margin-top: 15px;
+}
+
+#aboutintrocontent {
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#aboutbegancontent {
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#aboutlangcontent {
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 5px;
+}
+/*portfolio*/
+
+#portfolio {
+    grid-area: portfoliosec;
+}
+
+/*contact*/
+
+#contact {
+    grid-area: contactsec;
 }
