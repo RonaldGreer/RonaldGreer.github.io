@@ -154,6 +154,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-decoration: none;
     text-align: center;
     margin-left: 28px;
     margin-right: 28px;
@@ -177,6 +178,7 @@ nav {
     height: 1px;
     width: 45%;
     background-color: #fff;
+    border: none;
 }
 
 .portfoliohead{
