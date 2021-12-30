@@ -40,8 +40,8 @@ nav {
 }
 
 .navlink:active {
-    padding-top: 3px;
-    padding-bottom: 7px;
+    padding-top: 6px;
+    padding-bottom: 4px;
     box-shadow: none;
 }
 
@@ -148,6 +148,36 @@ nav {
     color: #fff;
     font-size: 20px;
     border-bottom-right-radius: 45px;
+}
+
+.portfoliocard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: green;
+    border-bottom: solid 12px #2BDF7D;
+    border-radius: 12px;
+}
+
+
+.portfolioimage {
+    height: 125px;
+    width: 130;
+    margin-bottom: 8px;
+}
+
+.portfoliohead{
+    color: #fff;
+}
+
+.portfolioparagraph{
+    color: #fff;
 }
 
 /*contact*/
