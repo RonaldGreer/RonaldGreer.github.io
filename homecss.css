@@ -9,7 +9,8 @@ body {
     "aboutsec"
     "abouthr"
     "portfoliosec"
-    "contactsec";
+    "contactsec"
+    "contacthr";
 }
 
 /*nav*/
@@ -193,4 +194,42 @@ nav {
 
 #contact {
     grid-area: contactsec;
+}
+
+#contacthead {
+    padding-left: 20px;
+    padding-right: 4px;
+    background-color: green;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-right-radius: 45px;
+}
+
+.contactparagraph {
+    border-top: solid 12px #2BDF7D;
+    border-bottom: solid 12px #2BDF7D;
+    background-color: green;
+    color: #fff;
+    margin-top: 15px;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+}
+
+#contacthr {
+    grid-area: contacthr;
+    height: 10px;
+    width: 100%;
+    border-width: 0;
+    background-color: #86ff87;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 12px;
 }
