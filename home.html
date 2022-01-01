@@ -11,7 +11,7 @@
   </head>
   <body>
 
-    <nav>
+    <nav id="top">
         <a class="navlink" href="#about">About</a>
         <a class="navlink" href="#portfolio">Portfolio</a>
         <a class="navlink" href="#contact">Contact</a>
@@ -24,13 +24,15 @@
         <div class="colorblock"></div>
         </div>
        <div class="abouttext">
-        <div class="stylewrapper">
+        <div id="newblock" class="stylewrapper">
         <h3 id="abouthead">About Me</h3>
         <div class="colorblock"></div>
         </div>
         <div class="maintextcontent">
+        <div class="bigps">
         <p id="aboutintrocontent">Hi! My name is Ronald Greer(sometimes I go by Trey) and I'm a front end web developer. I'm a student at Ripley High School in Ripley, West Virginia, who hopes to do great things in the future in the tech field. I love a good challenge, especially when it comes to programming, not only do you learn immensely from it but it feels much more rewarding.</p>
         <p id="aboutbegancontent">My love for all things programming began when I entered the West Virginia Coding Club in the 6th grade. On my first day there, I learned to write a small line of code in Java that would display my name in the console. While it wasn't the most amazing piece of code, it captivated me on what could be possible with programming. Naturally, I pushed myself to learn more.</p>
+        </div>
         <p id="aboutlangcontent">Some of the coding languages that I am fluent in are: HTML, CSS, and JavaScript.</p>
         </div>
        </div>
@@ -39,50 +41,52 @@
 
     <section id="portfolio">
 
-        <div class="stylewrapper">
+        <div id="newblock" class="stylewrapper">
         <h3 id="portfoliohead">Portfolio</h3>
         <div class="colorblock"></div>
         </div>
 
-        <!--3 6 7 8  href="#about"-->
-        <a class="portfoliocard" href="file:///Users/treygreer/Desktop/Treehouse%20projects/Techdegree-project-3/index.html" target="_blank">
+        <div class="cardgrid">
+        <a id= "third" class="portfoliocard" href="file:///Users/treygreer/Desktop/Treehouse%20projects/Techdegree-project-3/index.html" target="_blank">
             <img class="portfolioimage" src="portfolioimages/Screen Shot 2021-12-30 at 3.51.02 PM.png">
             <hr class="phr">
             <h3 class="portfoliohead">My 3rd Treehouse Techdegree Project</h3>
-            <p class="portfolioparagraph">In my 3rd Techdegree Project, I constructed a digital form using HTML form fields.</p>
+            <p class="portfolioparagraph">In my 3rd Techdegree Project, I constructed a digital form using HTML form fields. (Designed for and responsive to all platforms.)</p>
         </a>
 
-        <a class="portfoliocard" href="file:///Users/treygreer/Desktop/Treehouse%20projects/Techdegree-Project-5/index.html" target="_blank">
+        <a id="fifth" class="portfoliocard" href="file:///Users/treygreer/Desktop/Treehouse%20projects/Techdegree-Project-5/index.html" target="_blank">
           <img class="portfolioimage" src="portfolioimages/Screen Shot 2021-12-30 at 3.53.37 PM.png">
           <hr class="phr">
           <h3 class="portfoliohead">My 5th Treehouse Techdegree Project</h3>
-          <p class="portfolioparagraph">In my 5th Techdegree Project I used JavaScript methods to filter through information regarding the information.</p>
+          <p class="portfolioparagraph">In my 5th Techdegree Project I used JavaScript methods to filter through information regarding the information. (Designed for desktop viewing only.)</p>
         </a>
 
-        <a class="portfoliocard" href="file:///Users/treygreer/Desktop/Treehouse%20projects/Techdegree-project-7-latest/index.html#settings" target="_blank">
+        <a id="seventh" class="portfoliocard" href="file:///Users/treygreer/Desktop/Treehouse%20projects/Techdegree-project-7-latest/index.html#settings" target="_blank">
           <img class="portfolioimage" src="portfolioimages/Screen Shot 2021-12-30 at 3.55.16 PM.png">
           <hr class="phr">
           <h3 class="portfoliohead">My 7th Treehouse Techdegree Project</h3>
-          <p class="portfolioparagraph">In my 7th Techdegree Project, I designed an app dashboard using advanced CSS coding practices.</p>
+          <p class="portfolioparagraph">In my 7th Techdegree Project, I designed an app dashboard using advanced CSS coding practices. (Designed for and responsive to all platforms.)</p>
         </a>
 
-        <a class="portfoliocard" href="file:///Users/treygreer/Desktop/Treehouse%20projects/Techdegree-project-8/index.html" target="_blank">
+        <a id="eighth" class="portfoliocard" href="file:///Users/treygreer/Desktop/Treehouse%20projects/Techdegree-project-8/index.html" target="_blank">
           <img class="portfolioimage" src="portfolioimages/Screen Shot 2021-12-30 at 3.56.10 PM.png">
           <hr class="phr">
           <h3 class="portfoliohead">My 8th Treehouse Techdegree Project</h3>
-          <p class="portfolioparagraph">In my 8th Techdegree Project, I created an employee directory using an API.</p>
+          <p class="portfolioparagraph">In my 8th Techdegree Project, I created an employee directory using an API. (Designed for desktop viewing only.)</p>
         </a>
+      </div>
     </section>
 
     <section id="contact">
-      <div class="stylewrapper">
+      <div id="newblock" class="stylewrapper">
       <h3 id="contacthead">Contact</h3>
       <div class="colorblock"></div>
       </div>
       <div class="contactparagraph">
-      <p>Below are the different ways you can reach me.</p>
+      <p class="contactpara">Below are the different ways you can reach me.</p>
       <ul>
         <li>304-654-5312</li>
+        <li>ronaldegreeriii@gmail.com</li>
         <li><a id="lasta" href="https://github.com/RonaldGreer">Github</a></li>
       </ul>
       </div>
@@ -93,7 +97,7 @@
       <p><em>Coded and Designed By Trey Greer</em></p>
     </footer>
 
-    <!--back to top implement javascript to pop up if scrolls down?-->
+    <a href="#top" id="backtopbutton">Back To Top</a>
 
     <script src="home.js"></script>
   </body>

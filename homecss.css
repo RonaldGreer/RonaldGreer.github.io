@@ -103,6 +103,7 @@ nav {
     padding-top: 5px;
     padding-right: 3px;
     padding-bottom: 5px;
+    text-indent: 18px;
 }
 
 #aboutintrocontent {
@@ -211,7 +212,7 @@ nav {
     background-color: green;
     color: #fff;
     margin-top: 15px;
-    padding-left: 3px;
+    padding-left: 12px;
     padding-top: 5px;
     padding-right: 3px;
     padding-bottom: 5px;
@@ -227,6 +228,10 @@ nav {
     margin-bottom: 20px;
 }
 
+.contactpara {
+    text-indent: 18px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -237,3 +242,319 @@ nav {
 #lasta {
     text-decoration: none;
 }
+
+/*button javascript*/
+
+#backtopbutton {
+    position: fixed;
+    display: none;
+    margin-top: 42rem;
+    margin-left: 7rem;
+    background-color: lightgreen;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 6px;
+}
+
+#backtopbutton:hover {
+    background-color: lightgrey;
+}
+
+@media (min-width: 1024px) {
+    nav {
+        grid-area: navsec;
+        background-color: green;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        border-bottom: solid 16px #2BDF7D;
+        border-top: solid 16px #2BDF7D;
+        margin-bottom: 0px;
+    }
+
+    .navlink {
+        font-size: 21px;
+        text-decoration: none;
+        color: green;
+        background-color: #cbcecc;
+        padding: 12px;
+        border-radius: 5px;
+        box-shadow: 0 6px 0 grey;
+        
+    }
+
+    .navlink:hover {
+        background-color: darkgrey;
+        color: #fff;
+        box-shadow: 0 6px 0 grey;
+    }
+    
+    .navlink:active {
+        padding-top: 9px;
+        padding-bottom: 4px;
+        box-shadow: none;
+    }
+    
+    .navhr {
+        grid-area: navhr;
+        height: 12px;
+        width: 100%;
+        border-width: 0;
+        background-color: #86ff87;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    /*about*/
+
+    #about {
+        grid-area: aboutsec;
+        border-bottom: solid 18px #2BDF7D;
+    }
+
+    .stylewrapper {
+        display: grid;
+        grid-template-columns: 35% 65%;
+        grid-template-areas: 
+        "name block";
+    }
+
+    #myname {
+        grid-area: name;
+        padding-left: 20px;
+        padding-right: 2px;
+        background-color: green;
+        color: #fff;
+        font-size: 42px;
+        border-bottom-right-radius: 45px;
+    }
+
+    .colorblock {
+        grid-area: block;
+        background-color: #edf6f1;
+        /*padding-left: 100px;*/
+    }
+
+    #abouthead {
+        grid-area: name;
+        padding-left: 20px;
+        padding-right: 4px;
+        background-color: green;
+        color: #fff;
+        font-size: 28px;
+        border-bottom-right-radius: 45px;
+        margin-bottom: 40px;
+    }
+
+    #newblock {
+        grid-template-columns: 20% 80%;
+    }
+
+    .abouttext {
+        margin-top: 40px;
+    }
+
+    .maintextcontent {
+        border-top: solid 16px #2BDF7D;
+        background-color: green;
+        margin-top: 15px;
+        padding-left: 3px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 5px;
+    }
+
+    .bigps {
+        display: flex;
+        text-indent: 18px;
+    }
+
+    #aboutintrocontent {
+        text-align: left;
+        color: #fff;
+        font-size: 16.5px;
+        margin-left: 5px;
+    }
+
+    #aboutbegancontent {
+        text-align: left;
+        color: #fff;
+        font-size: 16.5px;
+        margin-left: 5px;
+    }
+
+    #aboutlangcontent {
+        text-align: left;
+        color: #fff;
+        font-size: 16.5px;
+        margin-left: 5px;
+    }
+
+    .abouthr {
+        grid-area: abouthr;
+        height: 12px;
+        width: 100%;
+        border-width: 0;
+        background-color: #86ff87;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    /*portfolio*/
+
+   /* #portfolio {
+
+    }*/
+
+    .cardgrid {
+        display: grid;
+        grid-template-areas: 
+        "three five"
+        "seven eight";
+        grid-area: portfoliosec;
+    }
+
+    #third {
+        grid-area: three;
+    }
+
+    #fifth {
+        grid-area: five;
+    }
+
+    #seventh {
+        grid-area: seven;
+    }
+
+    #eighth {
+        grid-area: eight;
+    }
+    
+    #portfoliohead {
+        grid-area: name;
+        padding-left: 20px;
+        padding-right: 4px;
+        background-color: green;
+        color: #fff;
+        font-size: 28px;
+        border-bottom-right-radius: 45px;
+    }
+    
+    .portfoliocard {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 28px;
+        margin-right: 28px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        background-color: green;
+        border-bottom: solid 12px #2BDF7D;
+        border-radius: 12px;
+    }
+    
+    .portfolioimage {
+        height: 275px;
+        width: 100;
+        margin-bottom: 8px;
+    }
+    
+    .phr {
+        height: 2px;
+        width: 45%;
+        background-color: #fff;
+        border: none;
+    }
+    
+    .portfoliohead{
+        color: #fff;
+    }
+    
+    .portfolioparagraph{
+        color: #fff;
+    }
+
+    /*contact*/
+
+
+    #contact {
+        margin-top: 50px;
+        grid-area: contactsec;
+    }
+
+    #contacthead {
+        padding-left: 20px;
+        padding-right: 4px;
+        background-color: green;
+        color: #fff;
+        font-size: 28px;
+        border-bottom-right-radius: 45px;
+    }
+
+    .contactparagraph {
+        border-top: solid 16px #2BDF7D;
+        border-bottom: solid 16px #2BDF7D;
+        background-color: green;
+        color: #fff;
+        margin-top: 15px;
+        padding-left: 12px;
+        padding-top: 5px;
+        padding-right: 3px;
+        padding-bottom: 5px;
+        font-size: 16.5px;
+    }
+
+    #contacthr {
+        grid-area: contacthr;
+        height: 12px;
+        width: 100%;
+        border-width: 0;
+        background-color: #86ff87;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .contactpara {
+        text-indent: 18px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        color: grey;
+        font-size: 12px;
+    }
+
+    #lasta {
+        text-decoration: none;
+    }
+
+    /*button javascript*/
+
+    #backtopbutton {
+        position: fixed;
+        display: none;
+        margin-top: 42rem;
+        margin-left: 30.5rem;
+        background-color: lightgreen;
+        border: none;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 25px;
+        padding: 6px;
+    }
+
+    #backtopbutton:hover {
+        background-color: lightgrey;
+    }
+}
+
+    /*adjust padding on headings depending on screensizes*/
