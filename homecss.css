@@ -171,8 +171,8 @@ nav {
 }
 
 .portfolioimage {
-    height: 125px;
-    width: 130px;
+    height: 155px;
+    width: 100%;
     margin-bottom: 8px;
 }
 
@@ -310,6 +310,11 @@ nav {
 
     /*about*/
 
+    .sechead {
+        display: flex;
+        justify-content: center;
+    }
+
     #about {
         grid-area: aboutsec;
         border-bottom: solid 18px #2BDF7D;
@@ -347,10 +352,6 @@ nav {
         font-size: 28px;
         border-bottom-right-radius: 45px;
         margin-bottom: 40px;
-    }
-
-    #newblock {
-        grid-template-columns: 20% 80%;
     }
 
     .abouttext {
@@ -462,8 +463,8 @@ nav {
     }
     
     .portfolioimage {
-        height: 275px;
-        width: 100px;
+        height: 295px;
+        width: 100%;
         margin-bottom: 8px;
     }
     
