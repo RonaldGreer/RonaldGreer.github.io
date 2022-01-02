@@ -248,8 +248,8 @@ nav {
 #backtopbutton {
     position: fixed;
     display: none;
-    margin-top: 42rem;
-    margin-left: 7rem;
+    bottom: 2rem;
+    right: 1rem;
     background-color: lightgreen;
     border: none;
     color: #fff;
@@ -543,6 +543,8 @@ nav {
     #backtopbutton {
         position: fixed;
         display: none;
+        bottom: 2rem;
+        right: 1rem;
         background-color: lightgreen;
         border: none;
         color: #fff;
