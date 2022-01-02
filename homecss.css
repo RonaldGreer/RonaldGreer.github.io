@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: auto;
+    max-width: 1200px;
     background-color: #edf6f1;
     font-family: 'Poppins', sans-serif;
     display: grid;
