@@ -463,7 +463,7 @@ nav {
     }
     
     .portfolioimage {
-        height: 295px;
+        height: 100%;
         width: 100%;
         margin-bottom: 8px;
     }
@@ -543,8 +543,6 @@ nav {
     #backtopbutton {
         position: fixed;
         display: none;
-        margin-top: 42rem;
-        margin-left: 30.5rem;
         background-color: lightgreen;
         border: none;
         color: #fff;
